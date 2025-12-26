@@ -6,109 +6,6 @@ body {
     padding: 0;
     text-align: center;
 }
-#websitename{
-    color: white;
-    font-size: 20px;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-/* Navigation bar styling */
-nav {
-    background-color: #051a35;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-}
-
-/* Logo styling */
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.logo img {
-    height: 40px;
-}
-
-/* Menu styling */
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #1abc9c;
-}
-
-/* Hamburger menu button */
-.menu-toggle {
-    display: none;
-    font-size: 28px;
-    color: white;
-    cursor: pointer;
-}
-
-/* Only apply mobile styles when screen is small */
-@media (max-width: 768px) {
-    #menu {
-        display: none; /* Hide menu by default on mobile */
-        flex-direction: column;
-        width: 100%;
-        background-color: #051a35;
-        position: absolute;
-        top: 60px; /* Adjust based on navbar height */
-        left: 0;
-        padding: 20px 0;
-        z-index: 1000;
-    }
-
-    /* This is the class the JavaScript toggles */
-    #menu.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block; /* Show hamburger icon */
-        cursor: pointer;
-        font-size: 2rem;
-        color: white;
-    }
-
-    #user-profile-item {
-        margin-left: 0;
-        margin-top: 15px;
-        padding: 0 20px;
-    }
-}
-
-/* Hide toggle icon on desktop */
-@media (min-width: 769px) {
-    .menu-toggle {
-        display: none;
-    }
-}
-
-.hero {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #e6f2ff;
-}
 
 .services {
     display: grid;
@@ -185,4 +82,5 @@ footer {
     color: #fff;
     font-size: 0.85rem;
     font-weight: 600;
+
 }
