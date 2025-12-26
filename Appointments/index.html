@@ -5,34 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manager | Freelance Buddy</title>
-    <link rel="stylesheet" href="../calender.css">
+    <link rel="stylesheet" href="/booking/calender.css">
     <link rel="stylesheet" href="appointments.css">
+    <link rel="stylesheet" href="/shared/include.css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <a href="../Home/index.html"><img src="logo.png" alt="Logo"></a>
-            <h1 id="websitename">
-                <a href="../Home/index.html" title="Go to the homepage">Freelance Buddy</a>
-            </h1>
-        </div>
-
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-
-        <ul id="menu">
-            <li><a href="../Home/index.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="index.html">Appointments</a></li>
-            <li><a href="javascript:void(0)" onclick="handleLogout()">Log Out</a></li>
-
-            <li id="user-profile-item">
-                <div id="user-profile" class="user-profile">
-                    <span id="user-display-name"></span>
-                </div>
-            </li>
-        </ul>
-    </nav>
+    <div id="navbar-placeholder"></div>
 
     <!-- JavaScript for menu toggle -->
     <script>
@@ -63,10 +42,12 @@
     </div>
 
     <script src="view-appointments.js"></script>
+    <script src="/shared/include.js"></script>
 
     <footer>
         <p>&copy; 2025 Freelance Buddy. All rights reserved.</p>
     </footer>
 </body>
+
 
 </html>
