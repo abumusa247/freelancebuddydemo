@@ -34,7 +34,7 @@ authForm.onsubmit = (e) => {
         const user = users.find(u => u.email === email && u.password === pass);
         if (user) {
             localStorage.setItem('currentUser', JSON.stringify(user));
-            window.location.href = '../Home/index.html'; // Redirect to calendar
+            window.location.href = '/index.html'; // Redirect to calendar
         } else {
             alert('Invalid email or password.');
         }
@@ -93,4 +93,5 @@ function generateGuestId() {
 // --- Keep existing Login/Register logic below ---
 
 // ... (Your previous authForm.onsubmit code)
+
 
