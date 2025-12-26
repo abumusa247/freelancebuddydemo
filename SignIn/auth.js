@@ -70,7 +70,7 @@ guestBtn.addEventListener('click', () => {
     localStorage.setItem('currentUser', JSON.stringify(guestUser));
     
     alert(`Logged in as Guest\nID: ${guestId}`);
-    window.location.href = '../Home/index.html'; 
+    window.location.href = 'index.html'; 
 });
 
 /**
@@ -91,4 +91,5 @@ function generateGuestId() {
 }
 
 // --- Keep existing Login/Register logic below ---
+
 // ... (Your previous authForm.onsubmit code)
